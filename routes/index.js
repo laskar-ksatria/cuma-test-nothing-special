@@ -9,4 +9,8 @@ Router.get('/adding', (req, res) => {
     res.json({message: "Adding router"})
 })
 
+Router.get('/adding-new', (req,res,next) => {
+    res.json({message: "add new"})
+})
+
 module.exports = Router;
